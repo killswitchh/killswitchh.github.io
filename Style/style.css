@@ -23,6 +23,7 @@ video
 	margin-right: 30%;
 	margin-top: 20%;
 	color: #1B1B1B;
+	transition: 1s;
 	/*border: 1px solid black;*/
 }
 .Name
@@ -46,6 +47,7 @@ video
 {
 	margin-top: 10px;
 	/*border: 1px solid black;	*/
+	animation: pulse 2s infinite;
 
 }
 .Icon a
@@ -85,6 +87,26 @@ video
 	text-transform: capitalize;
 
 }
+.About:hover
+{
+	animation:   colorr 1s;
+	background-color:black;
+		color: white;
+
+}
+@keyframes colorr
+{
+	0%
+	{
+		background-color:#1B1B1B;
+		color: #E3E1E3;
+	}
+	100%
+	{
+		background-color:black;
+		color: white;
+	}
+}
 
 .Heading
 {	
@@ -119,6 +141,7 @@ video
 	padding-right: 1%;
 	padding-top: 2%;
 	padding-bottom: 2%;
+	transition: transform .2s;
 	/*margin-left: 1%;*/
  }
  .skills ul
@@ -144,6 +167,16 @@ video
 	width: 25%;
 	height: 25%;
 	/*border: 1px solid white;*/
+
+}
+.skills:hover
+{
+	animation:   colorr 1s;
+	background-color:black;
+	color: white;
+	transform: scale(1.2);
+	box-shadow: 0 8px 6px -6px black;
+
 
 }
 
@@ -173,6 +206,7 @@ video
 	padding-top: 3%;
 	padding-left: 1%;
 	height: 200px;
+	
 	
 
  }
@@ -243,7 +277,6 @@ video
 
 
 
-
 .projectsm h1
 {
 	text-align: center;
@@ -274,9 +307,19 @@ video
 	padding-top: 2%;
 	padding-bottom: 2%;
 	height: 400px;
+	transition: .2s;
 	/*margin-left: 1%;*/
  }
+.skillsd:hover
+{
+	animation:   colorr 1s;
+	background-color:black;
+	color: white;
+	transform: scale(1.2);
+	box-shadow: 0 8px 6px -6px black;
 
+
+}
 
 body
 {
