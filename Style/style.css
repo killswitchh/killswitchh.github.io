@@ -17,6 +17,7 @@ video
 .Namebox
 {
 	position: relative;
+
 	z-index: 1;
 	text-align: center;
 	margin-left: 30%;
@@ -327,6 +328,14 @@ body
 }
 
 @media screen and (max-width: 1000px) {
+	.Namebox
+	{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 20%;
+	}
+
+  
   .skills {
     width: 100%;
     margin-top: 1%;
@@ -343,16 +352,19 @@ body
   {
   	width: 30%;
     margin-top: 1%;
+    
   }
   .projectsm
   {
   	width: 70%;
     margin-top: 1%;
+    
   }
   .projectsr
   {
   	width: 100%;
     margin-top: 1%;
+    height: 210px;
   }
 
 }
