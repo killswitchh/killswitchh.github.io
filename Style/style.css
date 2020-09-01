@@ -185,14 +185,17 @@ video
  
 .clear::after
 {
-	content: "";
-	display: table;
+	content: ""; 
+	display: block; 
 	clear: both;
 }
 
 
-.projectsl
+.project{
+	background-color: #1B1B1B;
+}
 
+.projectsl
 {	
 	/*border: 1px solid white;*/
 
@@ -205,7 +208,9 @@ video
 	font-size: 20px;
 	color: white;
 	padding-top: 3%;
+	padding-bottom: 3%;
 	padding-left: 1%;
+	padding-right: 1%;
 	height: 200px;
 	
 	
@@ -233,10 +238,9 @@ video
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 	float: left;
 	width: 40%;
-	/*padding: 10px;*/
 	background-color: #1B1B1B;
-	/*background-color: #1B1B1B;*/
 	font-family: 'Roboto', sans-serif;
+	align-content: center;
 	text-align: left;
 	font-size: 19px;
 	color: white;
@@ -244,11 +248,9 @@ video
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-top: 3%;
-	padding-bottom: 1%;
+	padding-bottom: 3%;
 	/*margin-left: 1%;*/
 	height: 200px;
-	
-
  }
  .projectsr
 
@@ -267,8 +269,8 @@ video
 	/*color: black;*/
 	padding-left: 1%;
 	padding-right: 1%;
-	padding-top: 4%;
-	padding-bottom: 1%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	/*margin-left: 1%;*/
 	height: 200px;
 	 line-height: 1.6;
