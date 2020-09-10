@@ -1,7 +1,7 @@
 $(function()
 	{
 		var count=0;
-		var text=["Programmer","Video/Photo Editor","UI UX Designer","Computer Science Graduate"];
+		var text=["Programmer","Video/Photo Editor","UI UX Designer","Computer Science Graduate","Machine Learning Engineer"];
 		var elem = document.getElementById("Tag");
 		var isnt=setInterval (funname , 2000);
 		function funname()
